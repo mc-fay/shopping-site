@@ -83,7 +83,6 @@ def add_to_cart(melon_id):
 
     return redirect("/cart")
 
-
 @app.route("/cart")
 def show_shopping_cart():
     """Display content of shopping cart."""
